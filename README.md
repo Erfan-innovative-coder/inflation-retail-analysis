@@ -173,15 +173,9 @@ The baseline model does not provide statistically significant evidence of a cont
 
 To account for potential delayed effects and persistence in retail sales growth, lagged variables were introduced.
 
-$$
-\begin{aligned}
-\text{RetailGrowth}_t =\;& \beta_0
-+ \beta_1 \text{InflationChange}_t \\
-&+ \beta_2 \text{InflationChange}_{t-1}
-+ \beta_3 \text{RetailGrowth}_{t-1}
-+ \epsilon_t
-\end{aligned}
-$$
+
+$$RetailGrowth_t = \beta_0 + \beta_1 InflationChange_t + \beta_2 InflationChange_{t-1} + \beta_3 RetailGrowth_{t-1} + \epsilon_t$$
+
 
 Results using HAC standard errors with 12 lags:
 
