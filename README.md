@@ -271,13 +271,13 @@ A post-March-2020 dummy variable and interaction terms were introduced.
 
 $$
 \begin{aligned}
-RetailGrowth_t =\;& \beta_0
-+ \beta_1 InflationChange_t \\
-&+ \beta_2 InflationChange_{t-1}
-+ \beta_3 RetailGrowth_{t-1} \\
-&+ \beta_4 Post2020_t
-+ \beta_5 (InflationChange_t \times Post2020_t) \\
-&+ \beta_6 (InflationChange_{t-1} \times Post2020_t)
+\text{RetailGrowth}_t =\;& \beta_0
++ \beta_1 \text{InflationChange}_t \\
+&+ \beta_2 \text{InflationChange}_{t-1}
++ \beta_3 \text{RetailGrowth}_{t-1} \\
+&+ \beta_4 \text{Post2020}_t
++ \beta_5 (\text{InflationChange}_t \times \text{Post2020}_t) \\
+&+ \beta_6 (\text{InflationChange}_{t-1} \times \text{Post2020}_t)
 + \epsilon_t
 \end{aligned}
 $$
